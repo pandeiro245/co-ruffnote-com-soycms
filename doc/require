@@ -1,0 +1,27 @@
+
+必要要件
+	・PHP 5.2.0以降
+
+	・Apache
+	・mod_rewrite
+	・.htaccessが使用可能
+
+	・PHP-extension PDO,sqlite,sqlite-pdo,mbstring
+
+
+推奨
+	・PHP 5.2.1以降
+	・PHP-extension zip,gd
+	・not safeモード
+	
+
+
+チェックする内容
+	・ファイルの書き込み許可
+	・（確認）mbstring-internal_encodingがUTF-8か
+	
+インストールで設定する項目
+	・インストールディレクトリ
+	・（キャッシュ位置は決めうち、特にいじらない）
+	・初期ユーザー（リダイレクトでOK？）
+	・

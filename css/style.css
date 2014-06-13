@@ -1,0 +1,341 @@
+/* -- main layout -- */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image:url("./img/main/background.jpg");
+	background-repeat:repeat-x;
+	height:100%;
+	text-align:center;
+}
+
+#wrapper {
+	width:800px;
+	height:100%;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+
+}
+
+#content {
+	width:780px	;
+	_width:800px;
+	border:1px solid #CCCCCC;
+	background-image:none;
+	background-color:white;
+	margin:auto;
+	padding:9px 9px;
+}
+
+#content h2 {
+	border-bottom:1px solid #c3c3c3;
+	font-size:1.3em;
+	margin-bottom:12px;
+}
+
+#upperMenu{
+	width:800px;
+	height: 110px;
+	margin:0px auto 10px;
+	position:relative;
+}
+
+#upperMenu .menu{
+	float:right;
+	margin-right:30px;
+	line-height:107px;
+}
+
+#logo{
+	background-image:url("./img/logo_big.gif");
+	width:212px;
+	height:107px;
+	position: absolute;
+	right:0px;
+}
+
+/* --- footer style --- */
+#footer{
+	width:800px;
+	height:43px;
+	margin:10px auto 0px;
+	background-image:url("./img/main/footer_middle.gif");
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+#footer_left {
+	width:6px;
+	height:43px;
+	background-image:url("./img/main/footer_left.gif");
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#copyright {
+	color:white;
+	height:43px;
+	line-height:43px;
+}
+
+#footer_right {
+	width:6px;
+	height:43px;
+	background-image:url("./img/main/footer_right.gif");
+	background-repeat:no-repeat;
+	float:right;
+}
+
+/* --- footer style end --- */
+
+
+.info{
+	margin-bottom:10px;
+}
+
+.info h3{
+	text-align:center;
+	background-color:black;
+	color:white;
+	
+	margin:0;
+	padding:0 3px;
+}
+
+.info .box, .arrow{
+	float:left;
+	height:50px;
+}
+
+.info .box{
+	border:solid 1px black;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.info .box p{
+	text-align:center;
+	margin:5px;
+}
+
+.info .active{
+	background-color:red;
+}
+
+.info .arrow{
+	line-height:50px;
+	margin-right:5px;
+	margin-left:5px;
+}
+
+.navi{
+	width:760px;
+	margin:10px 0 10px;
+	padding: 0 10px;
+	height:50px;
+	text-align:center;
+}
+
+.navi input,
+.navi button
+{
+	width:100px;
+	height:50px;
+	font-size:15px;
+}
+
+.navi #prev_button{
+	float: left;
+}
+.navi #next_button,
+.navi #main_progress
+{
+	float: right;
+}
+.navi #to_confirm{
+	float: right;
+	width: 120px;
+}
+	
+
+#next_text{
+	text-align:right;
+}
+
+#license h3 {
+	width:100%;
+	text-align:center;
+	background-color:#DDDDDD;
+}
+
+#license{
+	margin: 10px;
+}
+
+#license .license_wrapper{
+	border:solid 1px black;
+	padding:10px;
+}
+
+#license pre{
+	width:100%;
+	height:300px;
+
+    overflow: auto;
+		
+	/* FireFox */
+    white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	
+	/* IE */
+	word-wrap:break-word ;
+}
+
+#requirment {
+	margin-top: 10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#requirment h3 {
+	width:100%;
+	text-align:center;
+	background-color:#DDDDDD;
+}
+
+#requirment	.environment{
+	border:1px solid black;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#requirment h4 {
+	width:100%;
+	text-align:center;
+	background-color:#89BE38;
+}
+
+#requirment h5 {
+	padding-left:15px;
+}
+
+
+#requirment p {
+	padding-left:40px;
+}
+
+.requirement {
+	margin-top:10px;
+	border:1px solid #FDC288;
+	background-color: white;
+	margin-bottom:10px;
+}
+
+
+.requirement .reason{
+	padding-left:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.requirement .requrie_name_free{
+	background-color:#89BE38;
+	background-image:url("./img/main/arrow_left.gif");
+	background-repeat:no-repeat;
+	padding-left:22px;
+	cursor:pointer;
+	color:balck;
+}
+
+.requirement .requrie_name_select{
+	background-color:#89BE38;
+	background-image:url("./img/main/arrow_bottom.gif");
+	background-repeat:no-repeat;
+	border-bottom:1px solid #FDC288;
+	padding-left:22px;
+	cursor:pointer;
+	color:black;
+}
+
+#install,
+#mysql_configuratoin,
+#check_environment,
+#install_config{
+	width:760px;
+	margin: 20px 10px;
+}
+
+#mysql_configuratoin h3{
+	width:100%;
+	text-align:center;
+	background-color:#89BE38;
+	margin-bottom: 10px;
+}
+
+#mysql_conf_alert{
+	border:solid 2px crimson ;
+	padding: 4px;
+	margin-bottom:10px;
+}
+
+#mysql_configuratoin table{
+	margin: 0 auto;
+	width: 600px;
+}
+#mysql_configuratoin th{
+	text-align: right;
+}
+#mysql_configuratoin input {
+	font-size: 20px;
+	padding: 2px;
+	width:320px;
+}
+
+#install{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+#install_params {
+	width:100%;
+	background-color:#E4EDD1;
+	margin-top:10px;
+}
+
+#install_params h4{
+	margin-left:25px;
+	padding-top:10px;
+	
+}
+
+#install_params p{
+	margin-left:40px;
+	padding-bottom:5px;
+}
+
+.install_log {
+	font-size: small;
+	width:100%;
+	height:240px;
+}
+
+#install #progress{
+	width:100%;
+	height:30px;
+	background-color:white;
+	text-align:center;
+	line-height: 30px;
+	border:1px solid black;
+}
+
+#install #bar{
+	width:0%;
+	height:100%;
+	background-color:aqua;
+}
